@@ -3,7 +3,7 @@ def load_library(emoticon_file)
   japanese_emoji = YAML.load(File.read("lib/emoticons.yml"))
     japanese_emoji_library = {'get_meaning'  => {},
                   'get_emoticon' => {} }
-  japanese_emoji.each do |meaning, 
+  japanese_emoji.each do |meaning, e|
 end
 
 
