@@ -6,6 +6,7 @@ def load_library(emoticon_file)
   japanese_emoji.each do |meaning, e|
     
     english = e[0]
+    japanese = e[1]
 end
 
 
