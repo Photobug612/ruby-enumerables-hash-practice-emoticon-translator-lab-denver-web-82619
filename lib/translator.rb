@@ -27,3 +27,5 @@ def get_english_meaning(emoticon_file, emoticon)
   english_emoticon ? english_emoticon: "Sorry, that emoticon was not found" 
 end
 
+
+
