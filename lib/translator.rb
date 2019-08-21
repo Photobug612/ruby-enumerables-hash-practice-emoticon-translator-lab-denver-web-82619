@@ -1,15 +1,15 @@
 require "yaml"
 def load_library(emoticon_file)
   japanese_emoji = YAML.load(File.read("lib/emoticons.yml"))
-    japanese_emoji_library = {'get_meaning'  => {},
+    emoticons = {'get_meaning'  => {},
                   'get_emoticon' => {} }
   japanese_emoji.each do |meaning, e|
     
     english = e[0]
     japanese = e[1]
     
-    japanese_emoji_library['get_meaning'][japanese] = meaning
-    japanese_emoji_library[]
+    emoticons['get_meaning'][japanese] = meaning
+    emoticons['get_emoticon'][english] = japanese
 end
 
 
