@@ -16,7 +16,7 @@ end
 
 
 def get_japanese_emoticon(emoticon_file, emoticons)
-  # code goes here
+  emoticons = 
 end
 
 def get_english_meaning
