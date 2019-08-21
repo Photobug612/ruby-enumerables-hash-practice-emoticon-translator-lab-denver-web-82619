@@ -15,7 +15,7 @@ def load_library(emoticon_file)
 end
 
 
-def get_japanese_emoticon(emoticon_file, emoji)
+def get_japanese_emoticon(emoticon_file, emoticon)
   emoticons = load_library(emoticon_file)
   japanese_emoticons = emoticons['get_emoji'][emoji]
 end
