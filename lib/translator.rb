@@ -8,7 +8,8 @@ def load_library(emoticon_file)
     english = e[0]
     japanese = e[1]
     
-    japanese_emoji_library['get_meaning'][japanese]
+    japanese_emoji_library['get_meaning'][japanese] = meaning
+    japanese_emoji_library[]
 end
 
 
